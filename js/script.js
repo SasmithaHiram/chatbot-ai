@@ -35,7 +35,7 @@ function send() {
 
     chatMsgs.appendChild(loader);
 
-    fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyD1n-cB2kdG_bFXbDCB3GVjp2iIEPCUVb4", requestOptions)
+    fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyA3uVYBQhmNwhgIBhrtxcxRgNAhODK1YUk", requestOptions)
         .then((response) => response.json())
         .then((result) => {
             loader.remove();
